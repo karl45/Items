@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Items</name>
+    </assembly>
+    <members>
+        <member name="M:Items.Controllers.AuthController.Authorize(System.String,System.String)">
+            <summary>
+            Логин это слово "user-" и в конце любое число от 0 до 20. Пароль это слово "password-" и в конце любое число от 0 до 20
+            </summary>
+            <param name="login">user-[0...20]</param>
+            <param name="password">password-[0...20]</param>
+            <returns></returns>
+        </member>
+        <member name="M:Items.Controllers.ItemsController.Get">
+            <summary>
+             Get All items
+            </summary>
+        </member>
+        <member name="M:Items.Controllers.ItemsController.Search(System.String)">
+            <summary>
+             Search Item by Name
+            </summary>
+        </member>
+        <member name="M:Items.Controllers.ItemsController.AddItem(Items.Models.Item)">
+            <summary>
+             Add item
+            </summary>
+        </member>
+        <member name="M:Items.Controllers.ItemsController.UpdateItem(System.Int32,Items.Models.Item)">
+            <summary>
+             Update Item by Id
+            </summary>
+        </member>
+        <member name="M:Items.Controllers.ItemsController.Delete(System.Int32)">
+            <summary>
+             Delete Item by Id
+            </summary>
+        </member>
+        <member name="M:Items.Controllers.OrdersController.Get(System.Int32,System.Int32)">
+            <summary>
+             Get All items
+            </summary>
+        </member>
+        <member name="M:Items.Controllers.OrdersController.Search(System.String)">
+            <summary>
+             Search Item by Name
+            </summary>
+        </member>
+        <member name="M:Items.Controllers.OrdersController.AddOrder(Items.Models.Order)">
+            <summary>
+             Add item
+            </summary>
+        </member>
+        <member name="M:Items.Controllers.OrdersController.UpdateOrder(System.Int32,Items.Models.Order)">
+            <summary>
+             Update Item by Id
+            </summary>
+        </member>
+        <member name="M:Items.Controllers.OrdersController.DeleteOrder(System.Int32)">
+            <summary>
+             Delete Item by Id
+            </summary>
+        </member>
+        <member name="M:Items.Controllers.RegionsController.Get">
+            <summary>
+             Get All items
+            </summary>
+        </member>
+        <member name="M:Items.Controllers.RegionsController.Search(System.String)">
+            <summary>
+             Search Item by Name
+            </summary>
+        </member>
+        <member name="M:Items.Controllers.RegionsController.AddItem(Items.Models.Region)">
+            <summary>
+             Add item
+            </summary>
+        </member>
+        <member name="M:Items.Controllers.RegionsController.UpdateItem(System.Int32,Items.Models.Region)">
+            <summary>
+             Update Item by Id
+            </summary>
+        </member>
+        <member name="M:Items.Controllers.RegionsController.Delete(System.Int32)">
+            <summary>
+             Delete Item by Id
+            </summary>
+        </member>
+    </members>
+</doc>
